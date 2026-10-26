@@ -10,7 +10,7 @@
     <PackageId>Telemetrix</PackageId>
     <Version>0.1.0</Version>
     <Title>Telemetrix</Title>
-    <Description>In-process OpenTelemetry trace, log and metric visualizer with an embedded executive dashboard. A zero-dependency local alternative to Jaeger, Zipkin and Aspire for ASP.NET Core development.</Description>
+    <Description>In-process OpenTelemetry trace, log and metric visualizer with an embedded executive dashboard. A zero-dependency local viewer for ASP.NET Core development: no Docker, no external collector.</Description>
     <PackageTags>opentelemetry;tracing;observability;aspnetcore;diagnostics;dashboard;efcore;activity</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>

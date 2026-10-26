@@ -2,8 +2,8 @@
 
 **In-process OpenTelemetry trace, log and metric visualizer with an embedded executive dashboard.**
 
-Telemetrix is a zero-dependency, local alternative to Jaeger, Zipkin and the Aspire
-dashboard for ASP.NET Core development. It captures OpenTelemetry traces, logs and metrics
+Telemetrix is a zero-dependency, local telemetry viewer for ASP.NET Core development,
+with no separate tracing server to run. It captures OpenTelemetry traces, logs and metrics
 *inside your running application* and renders them in an embedded dashboard — no Docker, no
 external collector, no orchestration.
 
@@ -21,7 +21,7 @@ Open `https://localhost:<port>/telemetrix` and the waterfalls, SQL and metrics a
 
 .NET 8, 9 and 10 lean heavily on native `Activity`, `DiagnosticSource` and OpenTelemetry,
 so distributed tracing is everywhere. But *seeing* that telemetry locally usually means
-spinning up Docker containers for Jaeger/Zipkin/Aspire, or squinting at log files.
+spinning up Docker containers for a tracing back-end, or squinting at log files.
 
 Telemetrix removes that friction. It is a plain NuGet package: an in-process exporter that
 funnels spans, logs and metrics straight into an embedded dashboard served by your own app.
